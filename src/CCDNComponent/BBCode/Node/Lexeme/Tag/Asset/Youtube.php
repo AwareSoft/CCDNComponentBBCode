@@ -124,7 +124,7 @@ class Youtube extends LexemeBase implements LexemeInterface
      *
      * @var array $lexingHtml
      */
-    protected static $lexingHtml = array('</pre><center><iframe width="560" height="315" src="http://www.youtube.com/embed/{{ param[0] }}" frameborder="0" allowfullscreen></iframe></center><pre>');
+    protected static $lexingHtml = array('</pre><center><iframe width="560" height="315" src="https://www.youtube.com/embed/{{ param[0] }}" frameborder="0" allowfullscreen></iframe></center><pre>');
 
     /**
      *

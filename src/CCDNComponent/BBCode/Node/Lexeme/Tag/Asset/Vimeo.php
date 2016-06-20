@@ -124,7 +124,7 @@ class Vimeo extends LexemeBase implements LexemeInterface
      *
      * @var array $lexingHtml
      */
-    protected static $lexingHtml = array('</pre><center><iframe src="http://player.vimeo.com/video/{{ param[0] }}?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="400" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></center><pre>');
+    protected static $lexingHtml = array('</pre><center><iframe src="https://player.vimeo.com/video/{{ param[0] }}?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="400" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></center><pre>');
 
     /**
      *
